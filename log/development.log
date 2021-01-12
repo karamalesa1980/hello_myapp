@@ -1,0 +1,58 @@
+  [1m[35m (2637.4ms)[0m  [1m[35mCREATE DATABASE "hello_myapp_development" ENCODING = 'unicode'[0m
+  [1m[35m (1192.0ms)[0m  [1m[35mCREATE DATABASE "hello_myapp_test" ENCODING = 'unicode'[0m
+Started GET "/" for ::1 at 2021-01-12 19:28:42 +0200
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 26.5ms | Allocations: 397)
+[Webpacker] Compiling...
+Started GET "/" for ::1 at 2021-01-12 19:28:46 +0200
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 4.0ms | Allocations: 10)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/yuriy/ruby_tutorial/test/hello_myapp/public/packs
+[Webpacker] Hash: 76145d9ce4575ebaa29b
+Version: webpack 4.46.0
+Time: 4254ms
+Built at: 2021-01-12 19:28:49
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-c229f7c7014cf8c8d494.js    124 KiB  application  [emitted] [immutable]  application
+js/application-c229f7c7014cf8c8d494.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-c229f7c7014cf8c8d494.js js/application-c229f7c7014cf8c8d494.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 749 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+Completed 200 OK in 6814ms (Views: 6801.3ms | ActiveRecord: 0.0ms | Allocations: 25307)
+
+
+[Webpacker] Compiled all packs in /home/yuriy/ruby_tutorial/test/hello_myapp/public/packs
+[Webpacker] Hash: 76145d9ce4575ebaa29b
+Version: webpack 4.46.0
+Time: 1520ms
+Built at: 2021-01-12 19:28:51
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-c229f7c7014cf8c8d494.js    124 KiB  application  [emitted] [immutable]  application
+js/application-c229f7c7014cf8c8d494.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-c229f7c7014cf8c8d494.js js/application-c229f7c7014cf8c8d494.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 749 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+Completed 200 OK in 4691ms (Views: 4676.7ms | ActiveRecord: 0.0ms | Allocations: 6656)
+
+
+Started GET "/" for ::1 at 2021-01-12 19:38:41 +0200
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 233)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 24ms (Views: 17.0ms | ActiveRecord: 0.0ms | Allocations: 7078)
+
+
